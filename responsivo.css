@@ -1,0 +1,890 @@
+
+
+
+
+@media (max-width: 1235px){
+
+  #ContenedorRectangulo #Rectangulo{
+
+    width:95% ;
+    background-color: white;
+    height:100px ;
+    margin-top:150px ;
+    margin-left:0%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1194px){
+
+    #imagen{
+        width:100% ;
+        height:400px ;
+        margin-top:50px ;
+        background-image: url(img/Banner2.jpg);
+        background-size:100% 100%;
+       }
+
+       #seccion4{
+        display: grid;
+        grid-template-columns:29% 71%; 
+        width:100% ;
+        height:400px ; 
+        background-color: #BC4624;
+       
+       
+       }
+       
+       #ContenedorBola{
+        width:100% ;
+        
+       
+       }
+       
+       #ContenedorBola #blanca{
+         margin-top:50px ;
+         margin-left:50px ;
+         width:300px ;
+         height:300px ;
+         border-radius:50% ;
+         background-color:white ;
+       
+       }
+       
+       #blanca>img{
+         
+         width:300px ;
+         height:300px ;
+       }
+       
+       #ContenedorRectangulo{
+         width:100% ;
+       
+       }
+       
+       #ContenedorRectangulo #Rectangulo{
+       
+         width:95% ;
+         background-color: white;
+         height:100px ;
+         margin-top:150px ;
+         margin-left:0% ;
+       }
+       #Rectangulo > h4{
+         font-family: 'Montserrat';
+         font-size:25px ;
+         margin-left: 10%;
+         line-height:100px ;
+         color: #363636;
+       }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 1167px){
+    #CotenedorBoton{
+        display: grid;
+        grid-template-rows:60% 40%;
+        margin-left:50% ; 
+        width:50% ;
+        height: 100%;
+        background-color: #535252c4; 
+        word-wrap: break-word;
+        
+    }
+    
+    #CotenedorBoton >p{
+        width:60% ;
+        margin-left:35% ;
+        padding-top: 10%;
+        font-family:'MontserratLight' ;
+        text-align: justify;
+        font-size:18px ;
+        color: white;
+    }
+
+
+
+    #CotenedorBoton >#Boton{
+
+        display:flex ;
+        overflow-wrap: break-word;
+
+    }
+
+    #CotenedorBoton >#Boton >a {
+      margin: auto;
+      line-height:30px;
+
+
+    }
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1145px){
+
+    #ContenedorVideo #Titulo{
+        top:35% ;
+    }
+
+
+}
+
+@media (max-width: 1056px){
+
+    #ContenedorQuienes{
+        background-image: url(img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size:cover; 
+        background-position:0px 0px ;
+       
+       
+    }
+    .uno{
+        margin: auto;
+      }
+      
+      .dos{
+       
+       margin: auto;
+      }
+
+
+      #seccion4{
+        display: grid;
+        grid-template-columns:29% 71%; 
+        width:100% ;
+        height:400px ; 
+        background-color: #BC4624;
+       
+       
+       }
+       
+       #ContenedorBola{
+        width:100% ;
+        
+       
+       }
+       
+       #ContenedorBola #blanca{
+         margin-top:50px ;
+         margin-left:20px ;
+         width:300px ;
+         height:300px ;
+         border-radius:50% ;
+         background-color:white ;
+       
+       }
+       
+       #blanca>img{
+         
+         width:300px ;
+         height:300px ;
+       }
+       
+       #ContenedorRectangulo{
+         width:100% ;
+       
+       }
+       
+       #ContenedorRectangulo #Rectangulo{
+       
+         width:95% ;
+         background-color: white;
+         height:100px ;
+         margin-top:150px ;
+         margin-left:0% ;
+       }
+       #Rectangulo > h4{
+         font-family: 'Montserrat';
+         font-size:25px ;
+         margin-left: 10%;
+         line-height:100px ;
+         color: #363636;
+       }
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 1024px){
+  #ContenedorVideo #Titulo{
+    display:none ;
+}
+}
+
+
+
+
+
+
+
+@media (max-width: 995px){
+    
+    #seccion4{
+      display: grid;
+      grid-template-columns:100%;
+      grid-template-rows:50% 50% ; 
+      width:100% ;
+      height:650px ; 
+      background-color: #BC4624;
+     
+     
+     }
+     
+     #ContenedorBola{
+      width:100% ;
+      
+     
+     }
+     
+     #ContenedorBola #blanca{
+       margin-left:none;
+       margin: auto;
+       margin-top:50px ;
+       width:300px ;
+       height:300px ;
+       border-radius:50% ;
+       background-color:white ;
+     
+     }
+     
+     #blanca>img{
+       
+       width:300px ;
+       height:300px ;
+     }
+     
+     #ContenedorRectangulo{
+       width:100% ;
+     
+     }
+     
+     #ContenedorRectangulo #Rectangulo{
+       display: grid;
+       grid-template-rows:50% 50% ;
+       width:100% ;
+       background-color:#BC4624;
+       height:300px ;
+       margin-top:50px ;
+       margin-left:0% ;
+      
+     }
+     #Rectangulo > h4{
+       font-family: 'Montserrat';
+       font-size:25px ;
+       margin-left: 0%;
+       width:none ;
+       line-height:none;
+       color: white;
+      
+       margin: auto;
+     }
+
+
+
+}
+
+
+
+@media (max-width: 894px){
+    #Inscripciones{
+        display: grid;
+        grid-template-rows:1fr 1fr; 
+        width: 95%;
+        height:400px ;
+        margin-top:50px ;
+        background-color: #373635;
+        border-radius:0px 8px 8px 0px ; 
+       
+       
+       }
+       
+       
+       #Inscripciones #Titulo2{
+       display: flex;
+        margin: auto;
+        font-size:30px ;
+        font-family:'Montserrat';
+        color: white;
+        padding:30px ;
+        padding-top:100px ;
+        border-bottom:2px solid #D9441C ;
+       }
+       
+       #Inscripciones #ContenedorBotones{
+         display:grid ;
+         grid-template-rows:1fr 1fr;
+         margin: auto;
+         
+       }
+
+
+       
+       .Boton:nth-child(2){
+
+         margin-top:3% ;
+         background-color: #D9441C;
+         
+       }
+       
+     
+       .uno{
+        margin: auto;
+      }
+      
+      .dos{
+        border-radius:5px ;
+       margin: auto;
+      }
+
+      #seccion3 #Titulo3 #caja2{
+        display:flex;
+         margin: auto;
+         width:90% ;
+      }
+      
+      #caja2 >p{
+       text-align:center;
+       color: #363636;
+       font-family:'Montserrat' ;
+       
+      
+      }
+
+
+
+
+
+
+}
+
+@media (max-width: 857px){
+ #Desplegar{
+   display:flex;
+
+   margin-left:50% ;
+   margin-top:10px ;
+ }
+ 
+ 
+ #Colapse{
+    display:none;
+    margin-left:50% ;
+    margin-top:10px ;
+  }
+
+  
+  #MG{
+    display:flex ;
+    width:100%;
+    height:60px ;
+    background-color: rgba(31, 31, 31, 0.644);
+    z-index:4;
+  }
+  
+
+  #menu{
+    position: absolute;
+    display:none;
+    list-style: none;
+    height:400px ;
+    width:100% ;
+    margin-top:60px ;
+    margin-left:-0.1% ;
+    background-color: #373635;
+    
+   }
+   
+   
+   
+   #menu > li >a{
+     display:flex;
+     color:white ;
+     text-decoration:none ;
+     padding:1px 20px ;
+     text-align: justify;
+     line-height: 60px;
+     font-family:'MontserratLight' ;
+     font-size:18px ;
+   }
+   
+   #menuDesplegable{
+     position:absolute;
+     display:none;
+     width:300px ;
+     margin-top:-2px ;
+     margin-left:17% ;
+     background-color: rgba(31, 31, 31, 0.712);
+     list-style: none;
+     
+   }
+   
+   #menuDesplegable >li{
+     display: block;
+     padding:10px ;
+   }
+   
+   #menuDesplegable >li >a{
+    color: white;
+    text-decoration: none;
+    margin-bottom:5px ;
+    padding:15px 15px ;
+    font-family:'MontserratLight' ;
+   }
+   
+   #menuDesplegable li:hover{
+     background-color: rgba(210, 87, 30, 0.836);
+   }
+   
+   
+   #menu li:hover #menuDesplegable{
+    display: block;
+   
+   }
+
+
+
+}
+
+
+@media (max-width: 827px){
+    #seccion1{
+        display: grid;
+        grid-template-rows:20% 80%;
+        grid-template-columns:100% ;
+        background-image: url(img/banner.jpg);
+    }
+
+    #ContenedorQuienes{
+        display:flex ;
+        background-image: none;
+        background-repeat:none;
+        background-size:none; 
+        background-position:none  ;
+        
+        
+        
+       
+        /*background-attachment: fixed;*/
+       
+       }
+
+
+    #ContenedorQuienes img{
+       display:block ;
+        width:100% ;
+        height:170px ;
+        position: none;
+        z-index:0;
+        margin-top:0px ;
+    }
+
+    #CotenedorBoton{
+        display:block;
+        margin-left:0% ; 
+        
+        width:100%;
+         height:400px ;
+        background-color: #535252c4; 
+        word-wrap: break-word;
+        
+        
+    }
+
+    #CotenedorBoton >p{
+        width:80% ;
+        word-wrap: break-word;
+        margin-left:0% ;
+        padding-top:25%;
+        margin: auto;
+        font-family:'MontserratLight' ;
+        text-align: justify;
+        font-size:18px ;
+        color: white;
+        }
+        
+
+        #CotenedorBoton >#Boton{
+            
+            position:relative;
+            width:130px ;
+            height:35px ;
+            left:45%;
+            top:5%;
+            border-radius:5px ;
+            background-color: #D9441C;
+            
+            
+            
+          }
+
+          #seccion2{
+            display: grid;
+            grid-row: none;
+            grid-template-columns:none ;
+            grid-template-rows:50% 50%; 
+            width:100% ;
+            height:800px ;
+            background-color: #B7B3B2;
+           
+           }
+           
+           
+           #Inscripciones{
+            display: grid;
+            grid-template-rows:50% 50% ; 
+            width: 100%;
+            height:400px ;
+            margin-top:0px ;
+            background-color: #373635;
+            border-radius:0px 0px 0px 0px ; 
+           
+           
+           }
+           
+           
+           #Inscripciones #Titulo2{
+           display: flex;
+            margin: auto;
+            font-size:30px ;
+            font-family:'Montserrat';
+            color: white;
+            padding:30px ;
+            padding-top:100px ;
+            border-bottom:2px solid #D9441C ;
+           }
+           
+           #Inscripciones #ContenedorBotones{
+             display:grid ;
+             grid-template-columns:50% 50% ;
+             width:100% ;
+             margin: auto;
+            
+           }
+           
+           .Boton button{
+             width:200px ;
+             height:50px ;
+             background-color: #D9441C;
+             margin: auto;
+             
+             border-radius:5px ;
+           }
+           
+           .uno{
+             margin: auto;
+           }
+           
+           .dos{
+            margin: auto;
+           }
+           
+           .Boton button a{
+             color: white;
+             font-family: 'Montserrat';
+             text-decoration: none;
+             font-size:20px ;
+           }
+           
+           .Boton:nth-child(2){
+
+            margin-top:0% ;
+            background-color: #D9441C;
+            
+          }
+           
+           #imagen{
+            width:100% ;
+            height:400px ;
+            margin-top:0px ;
+            background-image: url(img/Banner2.jpg);
+            background-size: cover;
+           }
+
+
+
+
+}
+
+@media (max-width: 699px){
+
+    #CotenedorBoton >p{
+        width:80% ;
+        word-wrap: break-word;
+        margin-left:0% ;
+        padding-top:30%;
+        margin: auto;
+        font-family:'MontserratLight' ;
+        text-align: justify;
+        font-size:15px ;
+        color: white;
+    }
+    
+    
+    #Desplegar{
+        display:flex;
+     
+        margin-left:50% ;
+        margin-top:10px ;
+      }
+      
+      
+      #Colapse{
+         display:none;
+         margin-left:50% ;
+         margin-top:10px ;
+       }
+}
+
+@media (max-width: 545px){
+
+    #CotenedorBoton >p{
+        font-size:19px ;
+        padding-top:10%;
+    }
+
+    #ContenedorQuienes img{
+        display:none ;
+         
+     }
+
+     #CotenedorBoton >#Boton{
+            
+        position:relative;
+        width:130px ;
+        height:35px ;
+        left:45%;
+        top:10%;
+        border-radius:5px ;
+        background-color: #D9441C;
+    }
+
+    #Desplegar{
+        display:flex;
+     
+        margin-left:35% ;
+        margin-top:10px ;
+      }
+      
+      
+      #Colapse{
+         display:none;
+         margin-left:35% ;
+         margin-top:10px ;
+       }
+
+
+       #seccion3 #Titulo3{
+        display:grid ;
+        grid-template-rows:50% 50% ;
+        width:100% ;
+       }
+       
+
+
+
+
+
+
+
+       #seccion3 #Titulo3 #caja2{
+        display: inline;
+         margin: auto;
+         width:100% ;
+      }
+      
+      #caja2 >p{
+       text-align:center;
+       color: #363636;
+       font-family:'Montserrat' ;
+       
+      
+      }
+      
+      
+      #logos{
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr 1fr ;
+      width:90% ;
+      margin: auto;
+      
+      
+      }
+      
+      .logoC{
+       display:flex;
+       width:60px ;
+       height:60px ;
+       background-color: #BC4624;
+       margin: auto;
+       margin-top:50px ;
+       border-radius:50% ;
+       margin-bottom:50px ;
+      
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 415px) {
+    #Desplegar{
+        display:flex;
+     
+        margin-left:25% ;
+        margin-top:10px ;
+      }
+      
+      
+      #Colapse{
+         display:none;
+         margin-left:25% ;
+         margin-top:10px ;
+       }
+
+       #Inscripciones #ContenedorBotones{
+        display:grid ;
+        grid-template-columns:none ;
+        grid-template-rows:50% 50% ;
+        width:100% ;
+        margin: auto;
+       
+      }
+      
+      .Boton button{
+        width:200px ;
+        height:50px ;
+        background-color: #D9441C;
+        margin: auto;
+        
+        border-radius:5px ;
+      }
+      
+      .uno{
+        margin: auto;
+      }
+      
+      .dos{
+       margin: auto;
+      }
+      
+      .Boton button a{
+        color: white;
+        font-family: 'Montserrat';
+        text-decoration: none;
+        font-size:20px ;
+      }
+      
+      .Boton:nth-child(2){
+
+       margin-top:3% ;
+       background-color: #D9441C;
+       
+     }
+
+
+
+}
+
+@media (max-width: 379px){
+    #Desplegar{
+        display:flex;
+     
+        margin-left:18% ;
+        margin-top:10px ;
+      }
+      
+      
+      #Colapse{
+         display:none;
+         margin-left:18% ;
+         margin-top:10px ;
+       }
+
+       #Inscripciones{
+        display: grid;
+        grid-template-rows:40% 60% ; 
+        width: 100%;
+        height:400px ;
+        margin-top:0px ;
+        background-color: #373635;
+        border-radius:0px 0px 0px 0px ; 
+       
+       
+       }
+       
+       
+       #Inscripciones #Titulo2{
+       display: flex;
+        margin: auto;
+        font-size:25px ;
+        font-family:'Montserrat';
+        color: white;
+        padding:10px ;
+        padding-top:100px ;
+        border-bottom:2px solid #D9441C ;
+       }
+
+       #Rectangulo > h4{
+        font-family: 'Montserrat';
+        font-size:23px ;
+        margin-left: 0%;
+        width:none ;
+        line-height:none;
+        color: white;
+       
+        margin: auto;
+      }
+
+
+}
